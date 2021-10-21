@@ -3,6 +3,7 @@ def bucketSort(array, *args):
     for i in range(len(array)):
         bucket.append([])
     n = len(bucket)
+    print(n)
     
     for j in array:
         index_b = int(j/n)
@@ -18,3 +19,6 @@ def bucketSort(array, *args):
             yield array, k, -1, i, -1
             array[k] = bucket[i][j]
             k += 1
+
+# for a in bucketSort([1, 125, 34, 12]):
+#     print(a)
