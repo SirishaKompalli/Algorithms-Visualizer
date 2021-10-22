@@ -23,7 +23,6 @@ class combSortTest(unittest.TestCase):
         input_array = [-8, 13, -12]
         result = [([-12, -8, 13], 0, 2, -1, -1), ([-12, -8, 13], 0, 1, -1, -1), ([-12, -8, 13], 1, 2, -1, -1), ([-12, -8, 13], 0, 1, -1, -1), ([-12, -8, 13], 1, 2, -1, -1)]
         sorting_result = list(combSort(input_array))
-        #print(sorting_result)
         self.assertEqual(result, sorting_result)
         
         
@@ -32,7 +31,6 @@ class combSortTest(unittest.TestCase):
         input_array = [5, 5, 5]
         result = [([5, 5, 5], 0, 2, -1, -1), ([5, 5, 5], 0, 1, -1, -1), ([5, 5, 5], 1, 2, -1, -1)]
         sorting_result = list(combSort(input_array))
-        #print(sorting_result)
         self.assertEqual(result, sorting_result)
         
         
@@ -41,7 +39,6 @@ class combSortTest(unittest.TestCase):
         input_array = [8, 4, 2]
         result = [([2, 4, 8], 0, 2, -1, -1), ([2, 4, 8], 0, 1, -1, -1), ([2, 4, 8], 1, 2, -1, -1)]
         sorting_result = list(combSort(input_array))
-        #print(sorting_result)
         self.assertEqual(result, sorting_result)
         
         
