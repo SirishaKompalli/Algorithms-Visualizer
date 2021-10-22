@@ -3,7 +3,6 @@ def bucketSort(array, *args):
     for i in range(len(array)):
         bucket.append([])
     n = len(bucket)
-    print(n)
     
     for j in array:
         index_b = int(j/n)
