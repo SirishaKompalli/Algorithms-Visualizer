@@ -26,6 +26,20 @@ class cycleSortTest(unittest.TestCase):
         self.assertEqual(result, sorting_result)
         
         
+    def test_equal_numbers(self):
+        input_array = [5, 5, 5]
+        result = []
+        sorting_result = list(cycleSort(input_array))
+        self.assertEqual(result, sorting_result)
+    
+    
+    def test_sorted_array(self):
+        input_array = [2, 5, 13]
+        result = []
+        sorting_result = list(cycleSort(input_array))
+        print(sorting_result)
+        self.assertEqual(result, sorting_result)
+    
         
         
     def test_reverse_array(self):
