@@ -7,6 +7,7 @@ from algorithms.stoogeSort  import stoogeSort
 from algorithms.strandSort  import strandSort
 from algorithms.oddevenSort import oddevenSort
 from algorithms.exchangeSort import exchangeSort
+from algorithms.wiggleSort import wiggleSort
 
 
 algorithmsDict = {'insertion'       : insertionSort,
@@ -32,5 +33,6 @@ algorithmsDict = {'insertion'       : insertionSort,
                   'strand'          : strandSort,
                   'odd-even'        : oddevenSort,
                   'pigeonhole'      : pigeonholeSort,
-                  'exchange'        : exchangeSort}
+                  'exchange'        : exchangeSort,
+                  'wiggle'          : wiggleSort}
 
