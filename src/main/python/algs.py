@@ -34,5 +34,7 @@ algorithmsDict = {'insertion'       : insertionSort,
                   'odd-even'        : oddevenSort,
                   'pigeonhole'      : pigeonholeSort,
                   'exchange'        : exchangeSort,
+                  'recursive insertion': recursiveInsertionSort,
                   'wiggle'          : wiggleSort}
+
 
