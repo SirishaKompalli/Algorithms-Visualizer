@@ -50,6 +50,6 @@ __all__ = [
     "mergeSort", 
     "insertionSort", 
     "radixSort",
-    "recursiveInsertionSort"
+    "recursiveInsertionSort",
     "wiggleSort"
 ]
